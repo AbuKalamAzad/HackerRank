@@ -22,7 +22,7 @@ public class SolutionAnagram {
 		if(s1.length()!=s2.length())
 		return false;
 		else
-		{
+		{ 
 			char[] c1=s1.toLowerCase().toCharArray();
 			char[] c2=s2.toLowerCase().toCharArray();
 			Arrays.sort(c1);
